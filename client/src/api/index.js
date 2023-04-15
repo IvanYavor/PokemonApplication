@@ -2,7 +2,7 @@ import axios from "axios";
 
 const api = axios.create({
   // TODO use env; won't work in heroku
-  baseURL: "http://localhost:3000/api",
+  baseURL: "https://pokemon-application-api.vercel.app",
 });
 
 export const addUserPokemon = (payload) =>
